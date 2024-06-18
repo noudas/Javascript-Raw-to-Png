@@ -2,8 +2,8 @@ const fs = require("fs");
 const path = require("path");
 const cr2Raw = require("cr2-raw");
 
-const inputFolder = "D:/Fotos/Israel Sharei 2023/Raw/HUJI + Yafo";
-const outputFolder = "D:/Fotos/Israel Sharei 2023/PNG/HUJI + Yafo";
+const inputFolder = "./caminho/exemplo";
+const outputFolder = "./caminho/exemplo";
 
 // Read the input folder and convert all CR2 files to PNG
 fs.readdir(inputFolder, (err, files) => {
